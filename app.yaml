@@ -1,0 +1,30 @@
+# Usa la versión de PHP que tu proyecto Laravel requiera
+runtime: php82
+
+# Le decimos a App Engine que el punto de entrada es la carpeta 'public' de Laravel
+runtime_config:
+    document_root: public
+
+# ¡IMPORTANTE! Aquí van las variables de tu archivo .env
+# NUNCA subas tu archivo .env. Copia y pega las variables aquí.
+env_variables:
+    # Genera una nueva llave para producción
+    APP_KEY: 'base64:x++s367xeApPHfEiSVu3nWAIy72YM3NLNggxxc+13+o='
+    APP_NAME: 'Laravel'
+    APP_ENV: 'production' # Ponlo en modo producción
+    APP_DEBUG: 'false' # Desactiva el debug por seguridad
+    APP_URL: 'https://TU_URL_DE_APP_ENGINE_O_DOMINIO'
+
+    # Configuración para que Laravel use carpetas temporales que sí puede escribir
+    APP_STORAGE: '/tmp'
+    VIEW_COMPILED_PATH: '/tmp'
+    SESSION_DRIVER: 'file'
+    SESSION_LIFETIME: '120'
+    LOG_CHANNEL: 'stderr'
+
+    # Si usas una base de datos de Cloud SQL, la configurarías aquí
+    # DB_CONNECTION: mysql
+    # DB_SOCKET: "/cloudsql/tu-proyecto:tu-region:tu-instancia"
+    # DB_DATABASE: "nombre_de_la_base"
+    # DB_USERNAME: "usuario"
+    # DB_PASSWORD: "password"
