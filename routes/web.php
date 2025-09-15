@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\PaginaPrincipalController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Antes:
+// Route::get('/', function () { return view('welcome'); });
+
+// Después:
+Route::get('/', [PaginaPrincipalController::class, 'mostrar']);
