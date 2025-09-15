@@ -13,7 +13,7 @@ env_variables:
     APP_NAME: 'Laravel'
     APP_ENV: 'production' # Ponlo en modo producción
     APP_DEBUG: 'false' # Desactiva el debug por seguridad
-    APP_URL: 'https://TU_URL_DE_APP_ENGINE_O_DOMINIO'
+    APP_URL: 'https://cenrad-472201.uc.r.appspot.com'
 
     # Configuración para que Laravel use carpetas temporales que sí puede escribir
     APP_STORAGE: '/tmp'
