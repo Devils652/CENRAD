@@ -12,8 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('testimonios', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        $table->id();
+        $table->string('name');      // Para el nombre de la persona
+        $table->text('comment');     // Para el texto del testimonio (text es mejor para textos largos)
+        $table->string('avatar');    // Para la URL de la imagen
+        $table->timestamps();
         });
     }
 
