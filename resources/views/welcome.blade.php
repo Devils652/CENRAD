@@ -220,7 +220,7 @@
                 <div class="text-center mb-16 animate__animated animate__fadeInUp">
                     <h2 class="text-4xl md:text-5xl font-extrabold text-blue-800">¿Cuándo podemos ayudarte?</h2>
                     <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                        Si tú o tu médico buscan respuestas claras ante ciertos síntomas o condiciones, nuestros
+                        Si usted o su médico buscan respuestas claras ante ciertos síntomas o condiciones, nuestros
                         estudios especializados son el camino hacia un diagnóstico preciso.
                     </p>
                 </div>
