@@ -1,0 +1,12 @@
+# Ignorar las dependencias que Google Cloud instala por su cuenta
+/vendor/
+/node_modules/
+
+# Archivos de configuración local y logs que no deben subirse
+.env
+.env.backup
+/storage/logs/
+
+# Archivos del sistema de control de versiones y del editor de código
+.git
+.vscode
